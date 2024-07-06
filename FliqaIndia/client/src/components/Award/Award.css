@@ -1,0 +1,25 @@
+.secAward{
+    width: 85%;
+    height: auto;
+    margin: 5rem 3rem 0 6rem;
+}
+
+.awardList {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+    border-radius: 0.5rem;
+}

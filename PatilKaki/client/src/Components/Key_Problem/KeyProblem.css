@@ -1,0 +1,48 @@
+.KeyProblem{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-cont{
+    width: 85%;
+}
+.key-heading{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.key-cont h1{
+    font-size: 44px;
+}
+
+.key-ans{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.ans{
+    padding: 24px;
+    line-height: 20px;
+    background-color: #f1e9fc;
+    border-radius: 20px;
+}
+
+.ans img{
+    width: 50px;
+}
+
+.ans h2{
+    padding-top: 25px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.ans p{
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+}
